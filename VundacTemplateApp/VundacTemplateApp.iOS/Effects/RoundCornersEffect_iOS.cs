@@ -10,11 +10,11 @@ using VundacTemplateApp.iOS.Effects;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ResolutionGroupName(nameof(VundacTemplateApp))]
-[assembly: ExportEffect(typeof(RoundCornersEffect), nameof(RoundCornersEffect_iOS))]
+[assembly: ResolutionGroupName("VundacTemplateApp")]
+[assembly: ExportEffect(typeof(RoundCornersEffect_iOS), "RoundCornersEffect")]
 namespace VundacTemplateApp.iOS.Effects
 {
-    class RoundCornersEffect_iOS : PlatformEffect
+    public class RoundCornersEffect_iOS : PlatformEffect
     {
         protected override void OnAttached()
         {

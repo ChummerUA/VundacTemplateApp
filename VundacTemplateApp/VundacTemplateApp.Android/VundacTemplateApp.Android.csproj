@@ -72,7 +72,7 @@
   <ItemGroup>
     <Compile Include="Effects\RoundCornersEffect_Droid.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Renderers\Visual\EntryRenderer_Droid.cs" />
+    <Compile Include="Renderers\CustomEntry_Droid.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

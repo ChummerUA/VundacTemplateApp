@@ -15,11 +15,11 @@ using VundacTemplateApp.Effects;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: ResolutionGroupName(nameof(VundacTemplateApp))]
-[assembly: ExportEffect(typeof(RoundCornersEffect), nameof(RoundCornersEffect_Droid))]
+[assembly: ResolutionGroupName("VundacTemplateApp")]
+[assembly: ExportEffect(typeof(RoundCornersEffect_Droid), "RoundCornersEffect")]
 namespace VundacTemplateApp.Droid.Effects
 {
-    class RoundCornersEffect_Droid : PlatformEffect
+    public class RoundCornersEffect_Droid : PlatformEffect
     {
         private double density => Xamarin.Essentials.DeviceDisplay.MainDisplayInfo.Density;
 

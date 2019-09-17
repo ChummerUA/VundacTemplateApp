@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Text;
 using Xamarin.Forms;
 
@@ -9,6 +10,7 @@ namespace VundacTemplateApp.Effects
     {
         public double CornerRadius { get; set; } = 0;
 
-        protected RoundCornersEffect() : base(nameof(RoundCornersEffect)) { }
+        public RoundCornersEffect() : 
+            base("VundacTemplateApp.RoundCornersEffect") { }
     }
 }
