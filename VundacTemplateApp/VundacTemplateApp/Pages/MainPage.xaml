@@ -7,14 +7,6 @@
 
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <Label Text="Welcome to Xamarin Forms and Prism!" />
-        <Frame
-            HasShadow="True"
-            BorderColor="White"
-            VerticalOptions="CenterAndExpand"
-            HorizontalOptions="Center">
-            <Entry
-                Placeholder="Enter text"/>
-        </Frame>
     </StackLayout>
 
 </ContentPage>
