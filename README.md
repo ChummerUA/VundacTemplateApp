@@ -4,9 +4,9 @@
 Template with some common features in Xamarin application development with Prism framework 
 
 ## Installation
-Unpack VundacTemplateApp.zip into project templates directory.
+Unpack VundacTemplateApp.zip into project templates directory.  
 By default, this directory is %USERPROFILE%\Documents\Visual Studio <version>\Templates\ProjectTemplates.
 
-</content>
+]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
