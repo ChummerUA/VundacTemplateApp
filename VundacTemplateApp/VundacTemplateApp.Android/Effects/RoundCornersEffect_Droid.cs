@@ -10,12 +10,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using VundacTemplateApp.Droid.Effects;
-using VundacTemplateApp.Effects;
+using $safeprojectname$.Effects;
+using $ext_safeprojectname$.Effects;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-[assembly: ResolutionGroupName("VundacTemplateApp")]
+[assembly: ResolutionGroupName("$ext_safeprojectname$")]
 [assembly: ExportEffect(typeof(RoundCornersEffect_Droid), "RoundCornersEffect")]
 namespace VundacTemplateApp.Droid.Effects
 {

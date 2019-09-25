@@ -5,12 +5,12 @@ using System.Text;
 
 using Foundation;
 using UIKit;
-using VundacTemplateApp.Effects;
-using VundacTemplateApp.iOS.Effects;
+using $ext_safeprojectname$.Effects;
+using $ext_safeprojectname$.iOS.Effects;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ResolutionGroupName("VundacTemplateApp")]
+[assembly: ResolutionGroupName("$ext_safeprojectname$")]
 [assembly: ExportEffect(typeof(RoundCornersEffect_iOS), "RoundCornersEffect")]
 namespace VundacTemplateApp.iOS.Effects
 {

@@ -6,8 +6,8 @@ using System.Text;
 using CoreGraphics;
 using Foundation;
 using UIKit;
-using VundacTemplateApp.Controls;
-using VundacTemplateApp.iOS.Renderers;
+using $ext_safeprojectname$.Controls;
+using $ext_safeprojectname$.iOS.Renderers;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 

@@ -10,8 +10,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using VundacTemplateApp.Controls;
-using VundacTemplateApp.Droid.Renderers;
+using $safeprojectname$.Renderers;
+using $ext_safeprojectname$.Controls;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
